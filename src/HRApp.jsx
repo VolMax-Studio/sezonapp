@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { User, MapPin, Clock, Star, MessageCircle, Bell, Search, Filter, Plus, Users, Calendar, Briefcase } from 'lucide-react';
-import './App.css';
 
 const HRApp = () => {
   const [currentView, setCurrentView] = useState('dashboard');
